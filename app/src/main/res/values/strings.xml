@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2laboras</string>
+    <string-array name="selection_options">
+    <item>Chars</item>
+    <item>Words</item>
+    <item>Numbers</item>
+
+    </string-array>
+</resources>
