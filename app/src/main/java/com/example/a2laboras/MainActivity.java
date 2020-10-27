@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onBtnShowResultClick(View view) {
+        Toast.makeText(this, this.spCountingOption.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
     }
 }
