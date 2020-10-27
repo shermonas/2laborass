@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">2laboras</string>
+    <string name="selection_chars" />
     <string-array name="selection_options">
     <item>Chars</item>
     <item>Words</item>
